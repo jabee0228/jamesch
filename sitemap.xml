@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>www.jamesch.cf/post/</loc>
-    <lastmod>2021-05-16T14:34:47+08:00</lastmod>
-  </url><url>
-    <loc>www.jamesch.cf/</loc>
-    <lastmod>2021-05-16T14:34:47+08:00</lastmod>
-  </url><url>
-    <loc>www.jamesch.cf/p/%E6%9E%B6%E7%AB%99%E6%95%99%E5%AD%B8/</loc>
-    <lastmod>2021-05-16T14:34:47+08:00</lastmod>
-  </url><url>
     <loc>www.jamesch.cf/categories/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -20,7 +11,13 @@
     <loc>www.jamesch.cf/p/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>www.jamesch.cf/post/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>www.jamesch.cf/categories/test/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>www.jamesch.cf/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>www.jamesch.cf/categories/%E6%B5%8B%E8%AF%95/</loc>
