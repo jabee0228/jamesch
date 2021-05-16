@@ -2,27 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sharp-easley-70c765.netlify.app/categories/</loc>
+    <loc>www.jamesch.cf/post/</loc>
+    <lastmod>2021-05-16T14:34:47+08:00</lastmod>
+  </url><url>
+    <loc>www.jamesch.cf/</loc>
+    <lastmod>2021-05-16T14:34:47+08:00</lastmod>
+  </url><url>
+    <loc>www.jamesch.cf/p/%E6%9E%B6%E7%AB%99%E6%95%99%E5%AD%B8/</loc>
+    <lastmod>2021-05-16T14:34:47+08:00</lastmod>
+  </url><url>
+    <loc>www.jamesch.cf/categories/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sharp-easley-70c765.netlify.app/p/tes/</loc>
+    <loc>www.jamesch.cf/p/tes/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sharp-easley-70c765.netlify.app/p/test-chinese/</loc>
+    <loc>www.jamesch.cf/p/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sharp-easley-70c765.netlify.app/post/</loc>
+    <loc>www.jamesch.cf/categories/test/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sharp-easley-70c765.netlify.app/categories/test/</loc>
+    <loc>www.jamesch.cf/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sharp-easley-70c765.netlify.app/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sharp-easley-70c765.netlify.app/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sharp-easley-70c765.netlify.app/tags/</loc>
+    <loc>www.jamesch.cf/tags/</loc>
   </url>
 </urlset>
