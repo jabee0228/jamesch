@@ -17,7 +17,97 @@
 你可能會想導出成靜態式網頁跟我自己寫靜態式網頁差在哪裡？在hugo 裡面我們可以簡單的用markdown寫文章，你只要用markdown寫好你的文章，它可以自己幫你送到你的網站上，就好像你在medium等各大網站上寫文章一樣。&lt;/p&gt;
 &lt;h1 id=&#34;正文開始&#34;&gt;正文開始&lt;/h1&gt;
 &lt;h2 id=&#34;安裝brew&#34;&gt;安裝brew&lt;/h2&gt;
-&lt;p&gt;如果你已經安裝過了可以跳過這個步驟。&lt;/p&gt;
+&lt;p&gt;如果你已經安裝過了可以跳過這個步驟。&lt;br&gt;
+先到官網將指令複製到terminal 按enter 進行安裝。
+&lt;a class=&#34;link&#34; href=&#34;https://brew.sh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;brew官網&lt;/a&gt;
+&lt;figure style=&#34;flex-grow: 575; flex-basis: 1381px&#34;&gt;
+		&lt;a href=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/install.png&#34; data-size=&#34;1612x280&#34;&gt;&lt;img src=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/install.png&#34;
+				srcset=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/install_hu8b95a735416b54e410a36cac5ce25a13_78849_480x0_resize_box_2.png 480w, https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/install_hu8b95a735416b54e410a36cac5ce25a13_78849_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;1612&#34;
+				height=&#34;280&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;install&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;install&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;
+P.S.如果你是windows的話建議這一步驟改成安裝Scoop&lt;/p&gt;
+&lt;h2 id=&#34;安裝hugo&#34;&gt;安裝hugo&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34; data-lang=&#34;terminal&#34;&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果你在這步報錯的話，必須替換homebrew-core源。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34; data-lang=&#34;terminal&#34;&gt;cd “$(brew --repo)/Library/Taps/homebrew/homebrew-core”
+git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;開始建立你的第一個hugo-blog&#34;&gt;開始建立你的第一個hugo blog&lt;/h2&gt;
+&lt;p&gt;打開終端機輸入&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-teminal&#34; data-lang=&#34;teminal&#34;&gt;hugo new site newblog
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;site 後面可以隨意打，這將會是你的路徑名稱。&lt;br&gt;
+接著你到/Users/本機名稱/newblog 你將會看到以下畫面
+&lt;figure style=&#34;flex-grow: 118; flex-basis: 283px&#34;&gt;
+		&lt;a href=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/u.png&#34; data-size=&#34;402x340&#34;&gt;&lt;img src=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/u.png&#34;
+				srcset=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/u_hu9b614b697de42e31c9d0ef5c0f6ca79b_34063_480x0_resize_box_2.png 480w, https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/u_hu9b614b697de42e31c9d0ef5c0f6ca79b_34063_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;402&#34;
+				height=&#34;340&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;路徑&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;路徑&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;套用你喜歡的theme&#34;&gt;套用你喜歡的theme&lt;/h2&gt;
+&lt;p&gt;本篇文章會以stack這個theme為教學。
+hugo的theme有非常的多你可以自己到hugo 官網上找你喜歡的。
+&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo theme&lt;/a&gt;&lt;br&gt;
+當然你也能自己寫屬於你自己的theme，但我們這邊主要以架設為基礎，也許以後我會再寫教學文。&lt;br&gt;
+找到你喜歡的theme後，按download 你會跳到github的repo。
+接著cd 到你的路徑並且套用。
+&lt;figure style=&#34;flex-grow: 192; flex-basis: 461px&#34;&gt;
+		&lt;a href=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/github.png&#34; data-size=&#34;2550x1326&#34;&gt;&lt;img src=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/github.png&#34;
+				srcset=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/github_hue45e430b5571b3252f0ee99bcf258a9b_492275_480x0_resize_box_2.png 480w, https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/github_hue45e430b5571b3252f0ee99bcf258a9b_492275_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;2550&#34;
+				height=&#34;1326&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;複製https 到以下指令add後面&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;複製https 到以下指令add後面&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34; data-lang=&#34;terminal&#34;&gt;cd /Users/本機名稱/newblog
+git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接著你會看到我們的路徑底下theme資料夾會多了很多檔案。&lt;br&gt;
+這個是你theme所有檔案。&lt;/p&gt;
+&lt;h2 id=&#34;設定hugo&#34;&gt;設定hugo&lt;/h2&gt;
+&lt;h3 id=&#34;config文件講解&#34;&gt;config文件講解&lt;/h3&gt;
+&lt;p&gt;hugo 的config文件用來設定整個網頁&lt;br&gt;
+hugo的config檔案可以使用 .toml .yaml等&lt;br&gt;
+雖然hugo默認給我們.toml，但是在mac os 環境下可以直接使用xcode開啟並且編輯.yaml格式，所以我建議大家直接使用.yaml。&lt;br&gt;
+如果你使用.yaml可以將config.toml刪除。&lt;/p&gt;
+&lt;h3 id=&#34;配置config&#34;&gt;配置config&lt;/h3&gt;
+&lt;p&gt;接下來要教你如何設定你的頁面。&lt;br&gt;
+因為每個theme要配置的東西不一樣，所以你必須先看example。&lt;br&gt;
+請先到newblog/themes/hugo-theme-stack/examplesite這個路徑底下，這個就是theme作者做的example，可以用這個配合theme的作者的使用文檔學習這個theme，可以配和著學習。&lt;br&gt;
+最主要的就是config和content資料夾把這兩個檔案複製到/newblog底下取代原本的config和content。\&lt;/p&gt;
+&lt;h2 id=&#34;在本地預覽網頁&#34;&gt;在本地預覽網頁&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34; data-lang=&#34;terminal&#34;&gt;hugo server -D --bind 你的本地ip --baseURL http://你的本地ip
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這邊-D的意思是包含draft文章，如果你有draft文章的話這樣就會就會。&lt;br&gt;
+如果你不知道你的ip，打開設定-網路上面會告訴你的ip。&lt;br&gt;
+接著你就可以到你的手機或電腦瀏覽器（要和電腦同一個網域），輸入例如：192.168.1.100:1313(填入你的ip)，你就會看到你的網頁了。&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 160; flex-basis: 384px&#34;&gt;
+		&lt;a href=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/hue.png&#34; data-size=&#34;2560x1600&#34;&gt;&lt;img src=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/hue.png&#34;
+				srcset=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/hue_hu343a5b976680dee6fec4ae1a6756e295_727083_480x0_resize_box_2.png 480w, https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/hue_hu343a5b976680dee6fec4ae1a6756e295_727083_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;2560&#34;
+				height=&#34;1600&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;你應該會看類似於以上畫面&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;你應該會看類似於以上畫面&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
