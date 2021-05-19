@@ -59,6 +59,8 @@ git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git
 &lt;h2 id=&#34;套用你喜歡的theme&#34;&gt;套用你喜歡的theme&lt;/h2&gt;
 &lt;p&gt;本篇文章會以stack這個theme為教學。
 hugo的theme有非常的多你可以自己到hugo 官網上找你喜歡的。
+&lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;stack&lt;/a&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hugo theme&lt;/a&gt;&lt;br&gt;
 當然你也能自己寫屬於你自己的theme，但我們這邊主要以架設為基礎，也許以後我會再寫教學文。&lt;br&gt;
@@ -94,7 +96,7 @@ hugo的config檔案可以使用 .toml .yaml等&lt;br&gt;
 config還有很多部分需要講解，下一篇我會把config講解完。&lt;/p&gt;
 &lt;h2 id=&#34;在本地預覽網頁&#34;&gt;在本地預覽網頁&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-terminal&#34; data-lang=&#34;terminal&#34;&gt;hugo server -D --bind 你的本地ip --baseURL http://你的本地ip
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這邊-D的意思是包含draft文章，如果你有draft文章的話這樣就會就會。&lt;br&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這邊-D的意思是包含draft文章，如果你有draft文章的話打包時會把draft連同打包。&lt;br&gt;
 如果你不知道你的ip，打開設定-網路上面會告訴你的ip。&lt;br&gt;
 接著你就可以到你的手機或電腦瀏覽器（要和電腦同一個網域），輸入例如：192.168.1.100:1313(填入你的ip)，你就會看到你的網頁了。&lt;/p&gt;
 &lt;p&gt;&lt;figure style=&#34;flex-grow: 160; flex-basis: 384px&#34;&gt;

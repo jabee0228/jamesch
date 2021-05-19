@@ -20,7 +20,7 @@
 cd “$(brew --repo)/Library/Taps/homebrew/homebrew-core” git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git 開始建立你的第一個hugo blog 打開終端機輸入
 hugo new site newblog site 後面可以隨意打，這將會是你的路徑名稱。
 接著你到/Users/本機名稱/newblog 你將會看到以下畫面  路徑 
-套用你喜歡的theme 本篇文章會以stack這個theme為教學。 hugo的theme有非常的多你可以自己到hugo 官網上找你喜歡的。 hugo theme
+套用你喜歡的theme 本篇文章會以stack這個theme為教學。 hugo的theme有非常的多你可以自己到hugo 官網上找你喜歡的。 stack hugo theme
 當然你也能自己寫屬於你自己的theme，但我們這邊主要以架設為基礎，也許以後我會再寫教學文。
 找到你喜歡的theme後，按download 你會跳到github的repo。 接著cd 到你的路徑並且套用。  複製https 到以下指令add後面 
 cd /Users/本機名稱/newblog git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack 接著你會看到我們的路徑底下theme資料夾會多了很多檔案。
