@@ -6,7 +6,32 @@
     <description>Recent content in hugo on 姜義新 | jamesch.cf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 May 2021 14:34:47 +0800</lastBuildDate><atom:link href="https://jamesch.cf/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 May 2021 14:34:47 +0800</lastBuildDate><atom:link href="https://jamesch.cf/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HUGO架站初學-一次講到保證你懂! ｜ Day2 config配置</title>
+      <link>https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day2-config%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 17 May 2021 14:34:47 +0800</pubDate>
+      
+      <guid>https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day2-config%E9%85%8D%E7%BD%AE/</guid>
+      <description>config 講解 今天給大家講解一下config，我們在newblog根目錄底下我們可以看到有一個檔案叫做config，這個檔案用來配置整個網頁。
+在上一期我們已經將config.toml換成config.yaml了。
+接下來我將講解config裡各個設定項目。
+baseurl 這裡要打上你的網址，我的話就是
+baseurl: https://jamesch.cf theme 選擇你的主題，這裡要看你的主題的文件夾名稱。
+theme: hugo-theme-stack footer: since: 選擇你的網站開始的時間。
+sidebar emoji打你想要顯示的，我是😘
+mac os默認開啟emoji鍵盤為command+control+空白
+subtitle:自我介紹
+avaster:頭像建議相片轉成正方形會比較好，src後面填入相片的本地位置。
+comments 這個欄位是填入你的留言的運營商，如果不想要的話
+enabled: false menu 以下是我的配置
+- identifier: 1 name: Home url: / weight: -100 pre: home - identifier: 2 name: Github url: https://github.com/jabee0228 weight: -50 pre: github - identifier: 3 name: instagram url: https://www.instagram.com/iloveniniru/ weight: -50 pre: ig name:顯示的名稱
+url:網址
+weight:-用來排順序的，100會排在-99上面。
+pre:這邊是選擇圖案，圖案的格式為.svg svg存放的路徑為：newblog/themes/hugo-theme-stack/assets/icons
+newblog/themes/hugo-theme-stack/assets/icons 這邊提供一個網址有非常多的icon: tablericons  [tablericons]</description>
+    </item>
+    
     <item>
       <title>HUGO架站初學-一次講到保證你懂! ｜ Day1 hugo基礎架設</title>
       <link>https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/</link>
