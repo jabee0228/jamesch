@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='覺得架一個blog很難嗎？覺得使用網路上提供的都不好看嗎？覺得hugo 框架複雜難用嗎？保證一次教到你會！'><title>HUGO架站初學-一次講到保證你懂! ｜ Day1</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='覺得架一個blog很難嗎？覺得使用網路上提供的都不好看嗎？覺得hugo 框架複雜難用嗎？保證一次教到你會！'><title>HUGO架站初學-一次講到保證你懂! ｜ Day1 hugo基礎架設</title>
 
-<link rel='canonical' href='https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/'>
+<link rel='canonical' href='https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='HUGO架站初學-一次講到保證你懂! ｜ Day1'>
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='HUGO架站初學-一次講到保證你懂! ｜ Day1 hugo基礎架設'>
 <meta property='og:description' content='覺得架一個blog很難嗎？覺得使用網路上提供的都不好看嗎？覺得hugo 框架複雜難用嗎？保證一次教到你會！'>
-<meta property='og:url' content='https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/'>
+<meta property='og:url' content='https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/'>
 <meta property='og:site_name' content='姜義新 | jamesch.cf'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2021-05-16T14:34:47&#43;08:00'/><meta property='article:modified_time' content='2021-05-16T14:34:47&#43;08:00'/><meta property='og:image' content='https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/banner.jpeg' />
-<meta name="twitter:title" content="HUGO架站初學-一次講到保證你懂! ｜ Day1">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2021-05-16T14:34:47&#43;08:00'/><meta property='article:modified_time' content='2021-05-16T14:34:47&#43;08:00'/><meta property='og:image' content='https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/banner.jpeg' />
+<meta name="twitter:title" content="HUGO架站初學-一次講到保證你懂! ｜ Day1 hugo基礎架設">
 <meta name="twitter:description" content="覺得架一個blog很難嗎？覺得使用網路上提供的都不好看嗎？覺得hugo 框架複雜難用嗎？保證一次教到你會！"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/banner.jpeg' />
+    <meta name="twitter:image" content='https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/banner.jpeg' />
     <link rel="shortcut icon" href="static/jamesTech.img" />
 
     </head>
@@ -199,13 +199,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/">
-                <img src="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/banner_hu8d00195832545242c0c2d91a51362b62_11570_800x0_resize_q75_box.jpeg"
-                        srcset="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/banner_hu8d00195832545242c0c2d91a51362b62_11570_800x0_resize_q75_box.jpeg 800w, /p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/banner_hu8d00195832545242c0c2d91a51362b62_11570_1600x0_resize_q75_box.jpeg 1600w"
+            <a href="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/">
+                <img src="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/banner_hu8d00195832545242c0c2d91a51362b62_11570_800x0_resize_q75_box.jpeg"
+                        srcset="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/banner_hu8d00195832545242c0c2d91a51362b62_11570_800x0_resize_q75_box.jpeg 800w, /p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/banner_hu8d00195832545242c0c2d91a51362b62_11570_1600x0_resize_q75_box.jpeg 1600w"
                         width="800" 
                         height="210" 
                         loading="lazy"
-                        alt="Featured image of post HUGO架站初學-一次講到保證你懂! ｜ Day1" />
+                        alt="Featured image of post HUGO架站初學-一次講到保證你懂! ｜ Day1 hugo基礎架設" />
                 
             </a>
         </div>
@@ -227,7 +227,7 @@
     
 
     <h2 class="article-title">
-        <a href="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/">HUGO架站初學-一次講到保證你懂! ｜ Day1</a>
+        <a href="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/">HUGO架站初學-一次講到保證你懂! ｜ Day1 hugo基礎架設</a>
     </h2>
 
     
@@ -258,8 +258,8 @@
 <a class="link" href="https://brew.sh/"  target="_blank" rel="noopener"
     >brew官網</a>
 <figure style="flex-grow: 575; flex-basis: 1381px">
-		<a href="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/install.png" data-size="1612x280"><img src="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/install.png"
-				srcset="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/install_hu8b95a735416b54e410a36cac5ce25a13_78849_480x0_resize_box_2.png 480w, /p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/install_hu8b95a735416b54e410a36cac5ce25a13_78849_1024x0_resize_box_2.png 1024w"
+		<a href="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/install.png" data-size="1612x280"><img src="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/install.png"
+				srcset="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/install_hu8b95a735416b54e410a36cac5ce25a13_78849_480x0_resize_box_2.png 480w, /p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/install_hu8b95a735416b54e410a36cac5ce25a13_78849_1024x0_resize_box_2.png 1024w"
 				width="1612"
 				height="280"
 				loading="lazy"
@@ -281,8 +281,8 @@ git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git
 </code></pre><p>site 後面可以隨意打，這將會是你的路徑名稱。<br>
 接著你到/Users/本機名稱/newblog 你將會看到以下畫面
 <figure style="flex-grow: 118; flex-basis: 283px">
-		<a href="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/u.png" data-size="402x340"><img src="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/u.png"
-				srcset="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/u_hu9b614b697de42e31c9d0ef5c0f6ca79b_34063_480x0_resize_box_2.png 480w, /p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/u_hu9b614b697de42e31c9d0ef5c0f6ca79b_34063_1024x0_resize_box_2.png 1024w"
+		<a href="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/u.png" data-size="402x340"><img src="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/u.png"
+				srcset="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/u_hu9b614b697de42e31c9d0ef5c0f6ca79b_34063_480x0_resize_box_2.png 480w, /p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/u_hu9b614b697de42e31c9d0ef5c0f6ca79b_34063_1024x0_resize_box_2.png 1024w"
 				width="402"
 				height="340"
 				loading="lazy"
@@ -301,8 +301,8 @@ hugo的theme有非常的多你可以自己到hugo 官網上找你喜歡的。
 找到你喜歡的theme後，按download 你會跳到github的repo。
 接著cd 到你的路徑並且套用。
 <figure style="flex-grow: 192; flex-basis: 461px">
-		<a href="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/github.png" data-size="2550x1326"><img src="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/github.png"
-				srcset="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/github_hue45e430b5571b3252f0ee99bcf258a9b_492275_480x0_resize_box_2.png 480w, /p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/github_hue45e430b5571b3252f0ee99bcf258a9b_492275_1024x0_resize_box_2.png 1024w"
+		<a href="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/github.png" data-size="2550x1326"><img src="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/github.png"
+				srcset="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/github_hue45e430b5571b3252f0ee99bcf258a9b_492275_480x0_resize_box_2.png 480w, /p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/github_hue45e430b5571b3252f0ee99bcf258a9b_492275_1024x0_resize_box_2.png 1024w"
 				width="2550"
 				height="1326"
 				loading="lazy"
@@ -326,15 +326,16 @@ hugo的config檔案可以使用 .toml .yaml等<br>
 <p>接下來要教你如何設定你的頁面。<br>
 因為每個theme要配置的東西不一樣，所以你必須先看example。<br>
 請先到newblog/themes/hugo-theme-stack/examplesite這個路徑底下，這個就是theme作者做的example，可以用這個配合theme的作者的使用文檔學習這個theme，可以配和著學習。<br>
-最主要的就是config和content資料夾把這兩個檔案複製到/newblog底下取代原本的config和content。\</p>
+最主要的就是config和content資料夾把這兩個檔案複製到/newblog底下取代原本的config和content。<br>
+config還有很多部分需要講解，下一篇我會把config講解完。</p>
 <h2 id="在本地預覽網頁">在本地預覽網頁</h2>
 <pre><code class="language-terminal" data-lang="terminal">hugo server -D --bind 你的本地ip --baseURL http://你的本地ip
 </code></pre><p>這邊-D的意思是包含draft文章，如果你有draft文章的話這樣就會就會。<br>
 如果你不知道你的ip，打開設定-網路上面會告訴你的ip。<br>
 接著你就可以到你的手機或電腦瀏覽器（要和電腦同一個網域），輸入例如：192.168.1.100:1313(填入你的ip)，你就會看到你的網頁了。</p>
 <p><figure style="flex-grow: 160; flex-basis: 384px">
-		<a href="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/hue.png" data-size="2560x1600"><img src="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/hue.png"
-				srcset="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/hue_hu343a5b976680dee6fec4ae1a6756e295_727083_480x0_resize_box_2.png 480w, /p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/hue_hu343a5b976680dee6fec4ae1a6756e295_727083_1024x0_resize_box_2.png 1024w"
+		<a href="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/hue.png" data-size="2560x1600"><img src="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/hue.png"
+				srcset="/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/hue_hu343a5b976680dee6fec4ae1a6756e295_727083_480x0_resize_box_2.png 480w, /p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/hue_hu343a5b976680dee6fec4ae1a6756e295_727083_1024x0_resize_box_2.png 1024w"
 				width="2560"
 				height="1600"
 				loading="lazy"
@@ -344,6 +345,8 @@ hugo的config檔案可以使用 .toml .yaml等<br>
 		<figcaption>你應該會看類似於以上畫面</figcaption>
 		
 	</figure></p>
+<p>以上就是今天的hugo架設教學，下一篇我們會講解config，謝謝你的閱讀！<br>
+如果有任何架設上的問題歡迎私訊我的ig。</p>
 
 </section>
 

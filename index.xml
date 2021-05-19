@@ -7,12 +7,12 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Sun, 16 May 2021 14:34:47 +0800</lastBuildDate><atom:link href="https://jamesch.cf/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>HUGO架站初學-一次講到保證你懂! ｜ Day1</title>
-        <link>https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/</link>
+        <title>HUGO架站初學-一次講到保證你懂! ｜ Day1 hugo基礎架設</title>
+        <link>https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/</link>
         <pubDate>Sun, 16 May 2021 14:34:47 +0800</pubDate>
         
-        <guid>https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/</guid>
-        <description>&lt;img src="https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/banner.jpeg" alt="Featured image of post HUGO架站初學-一次講到保證你懂! ｜ Day1" /&gt;&lt;h1 id=&#34;hugo是什麼&#34;&gt;HUGO是什麼&lt;/h1&gt;
+        <guid>https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/</guid>
+        <description>&lt;img src="https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/banner.jpeg" alt="Featured image of post HUGO架站初學-一次講到保證你懂! ｜ Day1 hugo基礎架設" /&gt;&lt;h1 id=&#34;hugo是什麼&#34;&gt;HUGO是什麼&lt;/h1&gt;
 &lt;p&gt;可以讓你部署你自己的blog，裡面有非常多開源的theme，可以幫你導出變成一般的靜態式網站。
 你可能會想導出成靜態式網頁跟我自己寫靜態式網頁差在哪裡？在hugo 裡面我們可以簡單的用markdown寫文章，你只要用markdown寫好你的文章，它可以自己幫你送到你的網站上，就好像你在medium等各大網站上寫文章一樣。&lt;/p&gt;
 &lt;h1 id=&#34;正文開始&#34;&gt;正文開始&lt;/h1&gt;
@@ -22,8 +22,8 @@
 &lt;a class=&#34;link&#34; href=&#34;https://brew.sh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;brew官網&lt;/a&gt;
 &lt;figure style=&#34;flex-grow: 575; flex-basis: 1381px&#34;&gt;
-		&lt;a href=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/install.png&#34; data-size=&#34;1612x280&#34;&gt;&lt;img src=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/install.png&#34;
-				srcset=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/install_hu8b95a735416b54e410a36cac5ce25a13_78849_480x0_resize_box_2.png 480w, https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/install_hu8b95a735416b54e410a36cac5ce25a13_78849_1024x0_resize_box_2.png 1024w&#34;
+		&lt;a href=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/install.png&#34; data-size=&#34;1612x280&#34;&gt;&lt;img src=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/install.png&#34;
+				srcset=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/install_hu8b95a735416b54e410a36cac5ce25a13_78849_480x0_resize_box_2.png 480w, https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/install_hu8b95a735416b54e410a36cac5ce25a13_78849_1024x0_resize_box_2.png 1024w&#34;
 				width=&#34;1612&#34;
 				height=&#34;280&#34;
 				loading=&#34;lazy&#34;
@@ -45,8 +45,8 @@ git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;site 後面可以隨意打，這將會是你的路徑名稱。&lt;br&gt;
 接著你到/Users/本機名稱/newblog 你將會看到以下畫面
 &lt;figure style=&#34;flex-grow: 118; flex-basis: 283px&#34;&gt;
-		&lt;a href=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/u.png&#34; data-size=&#34;402x340&#34;&gt;&lt;img src=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/u.png&#34;
-				srcset=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/u_hu9b614b697de42e31c9d0ef5c0f6ca79b_34063_480x0_resize_box_2.png 480w, https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/u_hu9b614b697de42e31c9d0ef5c0f6ca79b_34063_1024x0_resize_box_2.png 1024w&#34;
+		&lt;a href=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/u.png&#34; data-size=&#34;402x340&#34;&gt;&lt;img src=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/u.png&#34;
+				srcset=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/u_hu9b614b697de42e31c9d0ef5c0f6ca79b_34063_480x0_resize_box_2.png 480w, https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/u_hu9b614b697de42e31c9d0ef5c0f6ca79b_34063_1024x0_resize_box_2.png 1024w&#34;
 				width=&#34;402&#34;
 				height=&#34;340&#34;
 				loading=&#34;lazy&#34;
@@ -65,8 +65,8 @@ hugo的theme有非常的多你可以自己到hugo 官網上找你喜歡的。
 找到你喜歡的theme後，按download 你會跳到github的repo。
 接著cd 到你的路徑並且套用。
 &lt;figure style=&#34;flex-grow: 192; flex-basis: 461px&#34;&gt;
-		&lt;a href=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/github.png&#34; data-size=&#34;2550x1326&#34;&gt;&lt;img src=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/github.png&#34;
-				srcset=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/github_hue45e430b5571b3252f0ee99bcf258a9b_492275_480x0_resize_box_2.png 480w, https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/github_hue45e430b5571b3252f0ee99bcf258a9b_492275_1024x0_resize_box_2.png 1024w&#34;
+		&lt;a href=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/github.png&#34; data-size=&#34;2550x1326&#34;&gt;&lt;img src=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/github.png&#34;
+				srcset=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/github_hue45e430b5571b3252f0ee99bcf258a9b_492275_480x0_resize_box_2.png 480w, https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/github_hue45e430b5571b3252f0ee99bcf258a9b_492275_1024x0_resize_box_2.png 1024w&#34;
 				width=&#34;2550&#34;
 				height=&#34;1326&#34;
 				loading=&#34;lazy&#34;
@@ -90,15 +90,16 @@ hugo的config檔案可以使用 .toml .yaml等&lt;br&gt;
 &lt;p&gt;接下來要教你如何設定你的頁面。&lt;br&gt;
 因為每個theme要配置的東西不一樣，所以你必須先看example。&lt;br&gt;
 請先到newblog/themes/hugo-theme-stack/examplesite這個路徑底下，這個就是theme作者做的example，可以用這個配合theme的作者的使用文檔學習這個theme，可以配和著學習。&lt;br&gt;
-最主要的就是config和content資料夾把這兩個檔案複製到/newblog底下取代原本的config和content。\&lt;/p&gt;
+最主要的就是config和content資料夾把這兩個檔案複製到/newblog底下取代原本的config和content。&lt;br&gt;
+config還有很多部分需要講解，下一篇我會把config講解完。&lt;/p&gt;
 &lt;h2 id=&#34;在本地預覽網頁&#34;&gt;在本地預覽網頁&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-terminal&#34; data-lang=&#34;terminal&#34;&gt;hugo server -D --bind 你的本地ip --baseURL http://你的本地ip
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這邊-D的意思是包含draft文章，如果你有draft文章的話這樣就會就會。&lt;br&gt;
 如果你不知道你的ip，打開設定-網路上面會告訴你的ip。&lt;br&gt;
 接著你就可以到你的手機或電腦瀏覽器（要和電腦同一個網域），輸入例如：192.168.1.100:1313(填入你的ip)，你就會看到你的網頁了。&lt;/p&gt;
 &lt;p&gt;&lt;figure style=&#34;flex-grow: 160; flex-basis: 384px&#34;&gt;
-		&lt;a href=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/hue.png&#34; data-size=&#34;2560x1600&#34;&gt;&lt;img src=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/hue.png&#34;
-				srcset=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/hue_hu343a5b976680dee6fec4ae1a6756e295_727083_480x0_resize_box_2.png 480w, https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1/hue_hu343a5b976680dee6fec4ae1a6756e295_727083_1024x0_resize_box_2.png 1024w&#34;
+		&lt;a href=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/hue.png&#34; data-size=&#34;2560x1600&#34;&gt;&lt;img src=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/hue.png&#34;
+				srcset=&#34;https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/hue_hu343a5b976680dee6fec4ae1a6756e295_727083_480x0_resize_box_2.png 480w, https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/hue_hu343a5b976680dee6fec4ae1a6756e295_727083_1024x0_resize_box_2.png 1024w&#34;
 				width=&#34;2560&#34;
 				height=&#34;1600&#34;
 				loading=&#34;lazy&#34;
@@ -108,6 +109,8 @@ hugo的config檔案可以使用 .toml .yaml等&lt;br&gt;
 		&lt;figcaption&gt;你應該會看類似於以上畫面&lt;/figcaption&gt;
 		
 	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;以上就是今天的hugo架設教學，下一篇我們會講解config，謝謝你的閱讀！&lt;br&gt;
+如果有任何架設上的問題歡迎私訊我的ig。&lt;/p&gt;
 </description>
         </item>
         <item>
