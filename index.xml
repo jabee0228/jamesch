@@ -51,7 +51,7 @@ mac os默認開啟emoji鍵盤為command+control+空白&lt;/p&gt;
   pre: ig
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;name:顯示的名稱&lt;br&gt;
 url:網址&lt;br&gt;
-weight:-用來排順序的，100會排在-99上面。&lt;br&gt;
+weight:用來排順序的，-100會排在-99上面。&lt;br&gt;
 pre:這邊是選擇圖案，圖案的格式為.svg
 svg存放的路徑為：newblog/themes/hugo-theme-stack/assets/icons&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-terminal&#34; data-lang=&#34;terminal&#34;&gt;newblog/themes/hugo-theme-stack/assets/icons

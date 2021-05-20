@@ -27,7 +27,7 @@ comments 這個欄位是填入你的留言的運營商，如果不想要的話
 enabled: false menu 以下是我的配置
 - identifier: 1 name: Home url: / weight: -100 pre: home - identifier: 2 name: Github url: https://github.com/jabee0228 weight: -50 pre: github - identifier: 3 name: instagram url: https://www.instagram.com/iloveniniru/ weight: -50 pre: ig name:顯示的名稱
 url:網址
-weight:-用來排順序的，100會排在-99上面。
+weight:用來排順序的，-100會排在-99上面。
 pre:這邊是選擇圖案，圖案的格式為.svg svg存放的路徑為：newblog/themes/hugo-theme-stack/assets/icons
 newblog/themes/hugo-theme-stack/assets/icons 這邊提供一個網址有非常多的icon: tablericons  [tablericons]</description>
     </item>
