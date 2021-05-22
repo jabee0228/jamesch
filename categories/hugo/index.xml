@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on 姜義新 | jamesch.cf</title>
-    <link>https://jamesch.cf/categories/hugo/</link>
+    <link>https://www.jamesch.cf/categories/hugo/</link>
     <description>Recent content in hugo on 姜義新 | jamesch.cf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 May 2021 14:34:47 +0800</lastBuildDate><atom:link href="https://jamesch.cf/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 May 2021 14:34:47 +0800</lastBuildDate><atom:link href="https://www.jamesch.cf/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HUGO架站初學-一次講到保證你懂! ｜ Day2 config配置</title>
-      <link>https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day2-config%E9%85%8D%E7%BD%AE/</link>
+      <link>https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day2-config%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Mon, 17 May 2021 14:34:47 +0800</pubDate>
       
-      <guid>https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day2-config%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day2-config%E9%85%8D%E7%BD%AE/</guid>
       <description>config 講解 今天給大家講解一下config，我們在newblog根目錄底下我們可以看到有一個檔案叫做config，這個檔案用來配置整個網頁。
 在上一期我們已經將config.toml換成config.yaml了。
 接下來我將講解config裡各個設定項目。
@@ -34,10 +34,10 @@ newblog/themes/hugo-theme-stack/assets/icons 這邊提供一個網址有非常�
     
     <item>
       <title>HUGO架站初學-一次講到保證你懂! ｜ Day1 hugo基礎架設</title>
-      <link>https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/</link>
+      <link>https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/</link>
       <pubDate>Sun, 16 May 2021 14:34:47 +0800</pubDate>
       
-      <guid>https://jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/</guid>
+      <guid>https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day1-hugo%E5%9F%BA%E7%A4%8E%E6%9E%B6%E8%A8%AD/</guid>
       <description>HUGO是什麼 可以讓你部署你自己的blog，裡面有非常多開源的theme，可以幫你導出變成一般的靜態式網站。 你可能會想導出成靜態式網頁跟我自己寫靜態式網頁差在哪裡？在hugo 裡面我們可以簡單的用markdown寫文章，你只要用markdown寫好你的文章，它可以自己幫你送到你的網站上，就好像你在medium等各大網站上寫文章一樣。
 正文開始 安裝brew 如果你已經安裝過了可以跳過這個步驟。
 先到官網將指令複製到terminal 按enter 進行安裝。 brew官網  install  P.S.如果你是windows的話建議這一步驟改成安裝Scoop
