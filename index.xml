@@ -7,16 +7,16 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Mon, 24 May 2021 20:36:50 +0800</lastBuildDate><atom:link href="https://www.jamesch.cf/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>[Errno 2] No such file or directory 解決辦法</title>
-        <link>https://www.jamesch.cf/p/errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/</link>
+        <title>can&#39;t open file &#39;main.py&#39;: [Errno 2] No such file or directory 解決辦法</title>
+        <link>https://www.jamesch.cf/p/cant-open-file-main.py-errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/</link>
         <pubDate>Mon, 24 May 2021 20:36:50 +0800</pubDate>
         
-        <guid>https://www.jamesch.cf/p/errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/</guid>
-        <description>&lt;img src="https://www.jamesch.cf/p/errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/banner.png" alt="Featured image of post [Errno 2] No such file or directory 解決辦法" /&gt;&lt;h1 id=&#34;python-環境下使用terminal開啟py檔案-出現-errno-2-no-such-file-or-directory&#34;&gt;python 環境下使用terminal開啟.py檔案 出現 [Errno 2] No such file or directory&lt;/h1&gt;
-&lt;p&gt;我們在terminal運行 python3 main.py 卻出現錯誤，繁複檢查檔案，檔案確實在專案底下。/
+        <guid>https://www.jamesch.cf/p/cant-open-file-main.py-errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/</guid>
+        <description>&lt;img src="https://www.jamesch.cf/p/cant-open-file-main.py-errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/banner.png" alt="Featured image of post can&#39;t open file &#39;main.py&#39;: [Errno 2] No such file or directory 解決辦法" /&gt;&lt;h1 id=&#34;python-環境下使用terminal開啟py檔案-出現-errno-2-no-such-file-or-directory&#34;&gt;python 環境下使用terminal開啟.py檔案 出現 [Errno 2] No such file or directory&lt;/h1&gt;
+&lt;p&gt;我們在terminal運行 python3 main.py 卻出現錯誤，重複檢查檔案，檔案確實在專案底下。
 &lt;figure style=&#34;flex-grow: 744; flex-basis: 1787px&#34;&gt;
-		&lt;a href=&#34;https://www.jamesch.cf/p/errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/banner.png&#34; data-size=&#34;2026x272&#34;&gt;&lt;img src=&#34;https://www.jamesch.cf/p/errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/banner.png&#34;
-				srcset=&#34;https://www.jamesch.cf/p/errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/banner_hu5a437d70349da260617b345e737e6450_54489_480x0_resize_box_2.png 480w, https://www.jamesch.cf/p/errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/banner_hu5a437d70349da260617b345e737e6450_54489_1024x0_resize_box_2.png 1024w&#34;
+		&lt;a href=&#34;https://www.jamesch.cf/p/cant-open-file-main.py-errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/banner.png&#34; data-size=&#34;2026x272&#34;&gt;&lt;img src=&#34;https://www.jamesch.cf/p/cant-open-file-main.py-errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/banner.png&#34;
+				srcset=&#34;https://www.jamesch.cf/p/cant-open-file-main.py-errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/banner_hu5a437d70349da260617b345e737e6450_54489_480x0_resize_box_2.png 480w, https://www.jamesch.cf/p/cant-open-file-main.py-errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/banner_hu5a437d70349da260617b345e737e6450_54489_1024x0_resize_box_2.png 1024w&#34;
 				width=&#34;2026&#34;
 				height=&#34;272&#34;
 				loading=&#34;lazy&#34;
