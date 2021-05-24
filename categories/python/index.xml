@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on 姜義新 | jamesch.cf</title>
+    <link>https://www.jamesch.cf/categories/python/</link>
+    <description>Recent content in python on 姜義新 | jamesch.cf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 May 2021 20:36:50 +0800</lastBuildDate><atom:link href="https://www.jamesch.cf/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Errno 2] No such file or directory 解決辦法</title>
+      <link>https://www.jamesch.cf/p/errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/</link>
+      <pubDate>Mon, 24 May 2021 20:36:50 +0800</pubDate>
+      
+      <guid>https://www.jamesch.cf/p/errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/</guid>
+      <description>python 環境下使用terminal開啟.py檔案 出現 [Errno 2] No such file or directory 我們在terminal運行 python3 main.py 卻出現錯誤，繁複檢查檔案，檔案確實在專案底下。/  報錯  這個問題主要是因為python環境變量設在Python.framework了，最簡單的解決辦法就是使用以下指令
+python3 /Users/jameschiang/PycharmProjects/words-arrange/mian.py # 直接導向檔案位置 </description>
+    </item>
+    
+  </channel>
+</rss>
