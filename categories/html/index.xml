@@ -6,7 +6,28 @@
     <description>Recent content in html on 姜義新 | jamesch.cf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 May 2021 14:34:47 +0800</lastBuildDate><atom:link href="https://www.jamesch.cf/categories/html/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 20:04:42 +0800</lastBuildDate><atom:link href="https://www.jamesch.cf/categories/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HUGO架站初學-一次講到保證你懂! ｜ Day3  撰寫文章</title>
+      <link>https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/</link>
+      <pubDate>Mon, 14 Jun 2021 20:04:42 +0800</pubDate>
+      
+      <guid>https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/</guid>
+      <description>建立HUGO文章路徑  路徑  如果現在要建立一篇新的文章的話，請在content/post/ 底下建立一個新的資料夾此資料夾裡面主要會包含文章、圖片等檔案。
+接著在你剛剛建立好的新資料夾裡面新增一個新的檔案名稱為
+index.md 一定要取名為index.md，這樣hugo在打包時才會認出這個檔案。\
+撰寫文章教學 接下來會教你一些markdown的語法。
+文章資料 我們在index.md檔案開頭我們都會放置文章的基本資料。
+以本篇文章來說的話，開頭為以下
+--- title: &amp;quot;HUGO架站初學-一次講到保證你懂! ｜ Day3 撰寫文章&amp;quot; description: 覺得架一個blog很難嗎？覺得使用網路上提供的都不好看嗎？覺得hugo 框架複雜難用嗎？保證一次教到你會！ date: 2021-06-14T20:04:42+08:00 image: banner.jpeg categories: - hugo - html tags: - hugo --- title:文章標題 description:文章描述，同時你將文章分享給其他人會顯示在底下畫面
+ 描述  date: 年-月-日T時:分:秒+時區
+image:此文章標題
+Categories、tags:分別會出現在Archives頁面及首頁右側  categories   tags 
+文章正文 以下是標題寫法
+# 大標題 ## 中標題 ### 小標題 (記得要空格) 圖片擺放 ![描述](檔案名稱.副檔名)  描述  也可以這樣像是以下這樣擺放
+![描述](檔案名稱.副檔名) ![描述](檔案名稱.副檔名)  描述   描述</description>
+    </item>
+    
     <item>
       <title>HUGO架站初學-一次講到保證你懂! ｜ Day2 config配置</title>
       <link>https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day2-config%E9%85%8D%E7%BD%AE/</link>
@@ -29,7 +50,7 @@ enabled: false menu 以下是我的配置
 url:網址
 weight:用來排順序的，-100會排在-99上面。
 pre:這邊是選擇圖案，圖案的格式為.svg svg存放的路徑為：newblog/themes/hugo-theme-stack/assets/icons
-newblog/themes/hugo-theme-stack/assets/icons 這邊提供一個網址有非常多的icon: tablericons  [tablericons]</description>
+newblog/themes/hugo-theme-stack/assets/icons 這邊提供一個網址有非常多的icon: tablericons  tablericons</description>
     </item>
     
     <item>

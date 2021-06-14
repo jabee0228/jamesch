@@ -6,7 +6,138 @@
         <description>Recent content on 姜義新 | jamesch.cf</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 24 May 2021 20:36:50 +0800</lastBuildDate><atom:link href="https://www.jamesch.cf/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 14 Jun 2021 20:04:42 +0800</lastBuildDate><atom:link href="https://www.jamesch.cf/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>HUGO架站初學-一次講到保證你懂! ｜ Day3  撰寫文章</title>
+        <link>https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/</link>
+        <pubDate>Mon, 14 Jun 2021 20:04:42 +0800</pubDate>
+        
+        <guid>https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/</guid>
+        <description>&lt;img src="https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner.jpeg" alt="Featured image of post HUGO架站初學-一次講到保證你懂! ｜ Day3  撰寫文章" /&gt;&lt;h2 id=&#34;建立hugo文章路徑&#34;&gt;建立HUGO文章路徑&lt;/h2&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 218; flex-basis: 523px&#34;&gt;
+		&lt;a href=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/site.png&#34; data-size=&#34;809x371&#34;&gt;&lt;img src=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/site.png&#34;
+				srcset=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/site_hu992a1c03dcff9637882c5564bf2a60f9_42334_480x0_resize_box_2.png 480w, https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/site_hu992a1c03dcff9637882c5564bf2a60f9_42334_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;809&#34;
+				height=&#34;371&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;路徑&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;路徑&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;
+如果現在要建立一篇新的文章的話，請在content/post/ 底下建立一個新的資料夾此資料夾裡面主要會包含文章、圖片等檔案。&lt;br&gt;
+接著在你剛剛建立好的新資料夾裡面新增一個新的檔案名稱為&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34; data-lang=&#34;terminal&#34;&gt;index.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;一定要取名為index.md，這樣hugo在打包時才會認出這個檔案。\&lt;/p&gt;
+&lt;h2 id=&#34;撰寫文章教學&#34;&gt;撰寫文章教學&lt;/h2&gt;
+&lt;p&gt;接下來會教你一些markdown的語法。&lt;/p&gt;
+&lt;h3 id=&#34;文章資料&#34;&gt;文章資料&lt;/h3&gt;
+&lt;p&gt;我們在index.md檔案開頭我們都會放置文章的基本資料。&lt;br&gt;
+以本篇文章來說的話，開頭為以下&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34; data-lang=&#34;terminal&#34;&gt;---
+title: &amp;quot;HUGO架站初學-一次講到保證你懂! ｜ Day3  撰寫文章&amp;quot;
+description: 覺得架一個blog很難嗎？覺得使用網路上提供的都不好看嗎？覺得hugo 框架複雜難用嗎？保證一次教到你會！
+date: 2021-06-14T20:04:42+08:00
+image: banner.jpeg
+categories:
+    - hugo
+    - html
+tags:
+    - hugo
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;title:文章標題
+description:文章描述，同時你將文章分享給其他人會顯示在底下畫面&lt;br&gt;
+&lt;figure style=&#34;flex-grow: 702; flex-basis: 1686px&#34;&gt;
+		&lt;a href=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/de.png&#34; data-size=&#34;499x71&#34;&gt;&lt;img src=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/de.png&#34;
+				srcset=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/de_hu44ba0a0582b87905f9885ffa44170257_25395_480x0_resize_box_2.png 480w, https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/de_hu44ba0a0582b87905f9885ffa44170257_25395_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;499&#34;
+				height=&#34;71&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;描述&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;描述&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;
+date: 年-月-日T時:分:秒+時區&lt;br&gt;
+image:此文章標題&lt;br&gt;
+Categories、tags:分別會出現在Archives頁面及首頁右側
+&lt;figure style=&#34;flex-grow: 244; flex-basis: 587px&#34;&gt;
+		&lt;a href=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/cat.png&#34; data-size=&#34;438x179&#34;&gt;&lt;img src=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/cat.png&#34;
+				srcset=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/cat_hu42d69bcd73422690da15696da65e1b27_6516_480x0_resize_box_2.png 480w, https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/cat_hu42d69bcd73422690da15696da65e1b27_6516_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;438&#34;
+				height=&#34;179&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;categories&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;categories&lt;/figcaption&gt;
+		
+	&lt;/figure&gt; &lt;figure style=&#34;flex-grow: 65; flex-basis: 156px&#34;&gt;
+		&lt;a href=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/tags.png&#34; data-size=&#34;363x557&#34;&gt;&lt;img src=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/tags.png&#34;
+				srcset=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/tags_huef763bb9f1c335b27c5e8a795efc3a3d_14335_480x0_resize_box_2.png 480w, https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/tags_huef763bb9f1c335b27c5e8a795efc3a3d_14335_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;363&#34;
+				height=&#34;557&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;tags&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;tags&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&#34;文章正文&#34;&gt;文章正文&lt;/h3&gt;
+&lt;p&gt;以下是標題寫法&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# 大標題
+## 中標題
+### 小標題
+(記得要空格)
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;圖片擺放&#34;&gt;圖片擺放&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;![描述](檔案名稱.副檔名)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;figure style=&#34;flex-grow: 381; flex-basis: 916px&#34;&gt;
+		&lt;a href=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner.jpeg&#34; data-size=&#34;439x115&#34;&gt;&lt;img src=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner.jpeg&#34;
+				srcset=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner_hu8d00195832545242c0c2d91a51362b62_11570_480x0_resize_q75_box.jpeg 480w, https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner_hu8d00195832545242c0c2d91a51362b62_11570_1024x0_resize_q75_box.jpeg 1024w&#34;
+				width=&#34;439&#34;
+				height=&#34;115&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;描述&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;描述&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;
+也可以這樣像是以下這樣擺放&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;![描述](檔案名稱.副檔名) ![描述](檔案名稱.副檔名)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;figure style=&#34;flex-grow: 381; flex-basis: 916px&#34;&gt;
+		&lt;a href=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner.jpeg&#34; data-size=&#34;439x115&#34;&gt;&lt;img src=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner.jpeg&#34;
+				srcset=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner_hu8d00195832545242c0c2d91a51362b62_11570_480x0_resize_q75_box.jpeg 480w, https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner_hu8d00195832545242c0c2d91a51362b62_11570_1024x0_resize_q75_box.jpeg 1024w&#34;
+				width=&#34;439&#34;
+				height=&#34;115&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;描述&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;描述&lt;/figcaption&gt;
+		
+	&lt;/figure&gt; &lt;figure style=&#34;flex-grow: 381; flex-basis: 916px&#34;&gt;
+		&lt;a href=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner.jpeg&#34; data-size=&#34;439x115&#34;&gt;&lt;img src=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner.jpeg&#34;
+				srcset=&#34;https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner_hu8d00195832545242c0c2d91a51362b62_11570_480x0_resize_q75_box.jpeg 480w, https://www.jamesch.cf/p/hugo%E6%9E%B6%E7%AB%99%E5%88%9D%E5%AD%B8-%E4%B8%80%E6%AC%A1%E8%AC%9B%E5%88%B0%E4%BF%9D%E8%AD%89%E4%BD%A0%E6%87%82-day3-%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/banner_hu8d00195832545242c0c2d91a51362b62_11570_1024x0_resize_q75_box.jpeg 1024w&#34;
+				width=&#34;439&#34;
+				height=&#34;115&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;描述&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;描述&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&#34;文章撰寫&#34;&gt;文章撰寫&lt;/h3&gt;
+&lt;p&gt;基本上沒有什麼特別的，但要注意若如需換行，請在後面加上\&lt;/p&gt;
+&lt;p&gt;以上就是今天的hugo架設教學，下一篇我們會講解config，謝謝你的閱讀！&lt;br&gt;
+Hugo架設教學文應該到這就告一段落了，還有很多的玩法，大家可以自己發掘！&lt;br&gt;
+如果有任何架設上的問題歡迎私訊我的ig。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>can&#39;t open file &#39;main.py&#39;: [Errno 2] No such file or directory 解決辦法</title>
         <link>https://www.jamesch.cf/p/cant-open-file-main.py-errno-2-no-such-file-or-directory-%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95/</link>
         <pubDate>Mon, 24 May 2021 20:36:50 +0800</pubDate>
@@ -88,10 +219,10 @@ svg存放的路徑為：newblog/themes/hugo-theme-stack/assets/icons&lt;/p&gt;
 				width=&#34;2560&#34;
 				height=&#34;1316&#34;
 				loading=&#34;lazy&#34;
-				alt=&#34;[tablericons]&#34;&gt;
+				alt=&#34;tablericons&#34;&gt;
 		&lt;/a&gt;
 		
-		&lt;figcaption&gt;[tablericons]&lt;/figcaption&gt;
+		&lt;figcaption&gt;tablericons&lt;/figcaption&gt;
 		
 	&lt;/figure&gt;&lt;br&gt;
 點選好你想要的icon，它會自動複製文字，到剛剛的路徑下複製隨便一個svg檔案，並改名，用文字編輯器開啟將剛剛它自動複製的文字貼上覆蓋現有的文字，command+s存檔退出。

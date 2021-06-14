@@ -6,20 +6,11 @@
     <description>Recent content in Categories on 姜義新 | jamesch.cf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 May 2021 20:36:50 +0800</lastBuildDate><atom:link href="https://www.jamesch.cf/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>python</title>
-      <link>https://www.jamesch.cf/categories/python/</link>
-      <pubDate>Mon, 24 May 2021 20:36:50 +0800</pubDate>
-      
-      <guid>https://www.jamesch.cf/categories/python/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 14 Jun 2021 20:04:42 +0800</lastBuildDate><atom:link href="https://www.jamesch.cf/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>html</title>
       <link>https://www.jamesch.cf/categories/html/</link>
-      <pubDate>Mon, 17 May 2021 14:34:47 +0800</pubDate>
+      <pubDate>Mon, 14 Jun 2021 20:04:42 +0800</pubDate>
       
       <guid>https://www.jamesch.cf/categories/html/</guid>
       <description></description>
@@ -28,9 +19,18 @@
     <item>
       <title>hugo</title>
       <link>https://www.jamesch.cf/categories/hugo/</link>
-      <pubDate>Mon, 17 May 2021 14:34:47 +0800</pubDate>
+      <pubDate>Mon, 14 Jun 2021 20:04:42 +0800</pubDate>
       
       <guid>https://www.jamesch.cf/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://www.jamesch.cf/categories/python/</link>
+      <pubDate>Mon, 24 May 2021 20:36:50 +0800</pubDate>
+      
+      <guid>https://www.jamesch.cf/categories/python/</guid>
       <description></description>
     </item>
     
