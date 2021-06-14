@@ -28,7 +28,7 @@
 如果現在要建立一篇新的文章的話，請在content/post/ 底下建立一個新的資料夾此資料夾裡面主要會包含文章、圖片等檔案。&lt;br&gt;
 接著在你剛剛建立好的新資料夾裡面新增一個新的檔案名稱為&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-terminal&#34; data-lang=&#34;terminal&#34;&gt;index.md
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;一定要取名為index.md，這樣hugo在打包時才會認出這個檔案。\&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;一定要取名為index.md，這樣hugo在打包時才會認出這個檔案。&lt;/p&gt;
 &lt;h2 id=&#34;撰寫文章教學&#34;&gt;撰寫文章教學&lt;/h2&gt;
 &lt;p&gt;接下來會教你一些markdown的語法。&lt;/p&gt;
 &lt;h3 id=&#34;文章資料&#34;&gt;文章資料&lt;/h3&gt;
